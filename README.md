@@ -1,4 +1,4 @@
-# 🔗 Win-to-Mac Link Converter (QuickSwap)
+# 🔗 Win-to-Mac Link Converter
 
 Une extension Google Chrome légère et élégante pour mettre fin à la "guerre des slashs". Elle convertit instantanément les chemins réseau Windows (UNC) en liens SMB compatibles macOS.
 
@@ -10,8 +10,8 @@ En entreprise, les utilisateurs Windows partagent souvent des liens de serveurs 
 
 * **Interface Overlay :** Pas de popup restrictive ; un panneau stylisé s'affiche par-dessus votre page active.
 * **Conversion Intelligente :** Remplace les antislashs (`\`) par des slashs (`/`) et ajoute le préfixe `smb:`.
-* **Auto-Copy :** Le lien converti est automatiquement copié dans votre presse-papiers après la conversion.
-* **Design Moderne :** Interface sombre (Dark Mode) inspirée des outils de productivité.
+* **Auto-Copy :** Le lien converti peut être copié dans votre presse-papiers après la conversion.
+* **Design Moderne :** Interface sobre inspirée des outils de productivité.
 
 ## 📂 Structure du Projet
 
@@ -28,15 +28,15 @@ Basé sur l'arborescence standard du projet :
 2. Ouvrez Google Chrome et accédez à `chrome://extensions/`.
 3. Activez le **Mode développeur** en haut à droite de la page.
 4. Cliquez sur **Charger l'extension dépaquetée**.
-5. Sélectionnez le dossier racine du projet (**QUICKSWAP**).
+5. Sélectionnez le dossier racine du projet.
 
 ## 📖 Utilisation
 
 1. Cliquez sur l'icône de l'extension dans votre barre d'outils Chrome.
 2. L'overlay s'affiche au centre de votre écran.
-3. Collez votre chemin Windows (ex: `\\MonServeur\Marketing\Projet`).
+3. Collez votre chemin Windows (ex: `\\MonServeur\Pole\Projet`).
 4. Cliquez sur **Convertir**.
-5. Le lien Mac est prêt et déjà copié ! Collez-le dans votre Finder (`Cmd + K`) ou votre navigateur.
+5. Le lien Mac ou Windows est prêt à être copié ! Collez-le dans votre Finder (`Cmd + K`) ou votre explorateur Windows ou votre navigateur.
 
 ---
 
