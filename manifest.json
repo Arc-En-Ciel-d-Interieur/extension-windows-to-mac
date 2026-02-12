@@ -2,6 +2,11 @@
   "manifest_version": 3,
   "name": "WinToMac Converter",
   "version": "1.0",
+  "icons": {
+    "16": "16x16.png",
+    "48": "48x48.png",
+    "128": "128x128.png"
+  },
   "permissions": ["activeTab", "scripting"],
   "action": { "default_popup": "popup.html" },
   "background": {
